@@ -1,0 +1,147 @@
+body{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+.hero{
+    background-color: #1f2937;
+    padding: 16px 100px 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.title,.logo{
+    color:#f9faf8;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.hero-text{
+    width: 40%;
+}
+.title{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.secondary-text{
+    margin:20px 0;
+}
+
+a, .secondary-text, button{
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.random{
+    text-align: center;
+    padding: 16px 100px 30px;
+}
+.random-title{
+    padding: 36px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.random-features{
+    display: flex;
+    gap: 16px;
+}
+
+.ingredients{
+    width: 500px;
+}
+
+.ingredients-text{
+    padding: 0 16px;
+}
+    
+.random-img{
+    width: 200px;
+    height: auto;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius:15px;
+}
+
+.quote{
+    text-align: left;
+    padding: 100px 200px;
+    background-color:#E5E7EB;
+    color:#1f2937;
+    font-style:italic;
+    font-size:36px;
+    font-weight:300;
+}
+
+.author{
+    text-align:right;
+    font-weight:bold;
+    font-style:normal;
+    color:#1f2937;
+    font-size:26px;
+    padding-left:100px;
+}
+
+.signup{
+    background-color: white;
+    color: #E5E7EB;
+}
+
+.signup-container{
+    width: 900px;
+    margin: 100px auto;
+    padding: 50px 30px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.action{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.signup-button{
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 50px;
+}
